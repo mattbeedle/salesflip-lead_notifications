@@ -16,7 +16,16 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
-    "README"
+    ".gitignore",
+     ".rvmrc",
+     "README",
+     "Rakefile",
+     "VERSION",
+     "lib/app/lead_notifications/mailers/lead_notification_mailer.rb",
+     "lib/app/lead_notifications/views/lead_notification_mailer/lead_notification.text.erb",
+     "lib/lead_notifications.rb",
+     "lib/lead_notifications/engine.rb",
+     "salesflip-lead_notifications.gemspec"
   ]
   s.homepage = %q{http://github.com/mattbeedle/salesflip-lead_notifications}
   s.rdoc_options = ["--charset=UTF-8"]
