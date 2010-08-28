@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{salesflip-lead_notifications}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Beedle"]
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/app/lead_notifications/lib/controller_hooks.rb",
      "lib/app/lead_notifications/mailers/lead_notification_mailer.rb",
-     "lib/app/lead_notifications/views/lead_notification_mailer/lead_notification.text.erb",
+     "lib/app/lead_notifications/views/lead_notifications/lead_notification_mailer/lead_notification.text.erb",
      "lib/lead_notifications.rb",
      "lib/lead_notifications/engine.rb",
      "salesflip-lead_notifications.gemspec"
