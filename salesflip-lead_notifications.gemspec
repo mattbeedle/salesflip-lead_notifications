@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{salesflip-lead_notifications}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Beedle"]
-  s.date = %q{2010-08-27}
+  s.date = %q{2010-08-28}
   s.description = %q{A notification email is sent to all users when a new lead arrives}
   s.email = %q{matt.beedle@1000jobboersen.de}
   s.extra_rdoc_files = [
@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
      "README",
      "Rakefile",
      "VERSION",
+     "lib/app/lead_notifications/lib/controller_hooks.rb",
      "lib/app/lead_notifications/mailers/lead_notification_mailer.rb",
      "lib/app/lead_notifications/views/lead_notification_mailer/lead_notification.text.erb",
      "lib/lead_notifications.rb",
