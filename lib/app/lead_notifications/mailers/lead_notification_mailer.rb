@@ -7,7 +7,9 @@ module LeadNotifications
       #  :from => 'service@salesflip.com')
       mail(:to => ['benjamin.pochhammer@1000jobboersen.de',
         'florian.schiffer@1000jobboersen.de',
-        'stephan.mehdorn@1000jobboersen.de'],
+        'stephan.mehdorn@1000jobboersen.de',
+        'mattbeedle@googlemail.com',
+        'annika.fleischer@1000jobboersen.de'],
         :subject => 'New Lead',
         :from => 'service@salesflip.com')
     end
