@@ -19,7 +19,7 @@ module LeadNotifications
         version '0.6'
         description 'Notify all users by email of a new lead arrival when it is added to the site by some means other than HTML'
       end
-      
+
       require 'app/lead_notifications/mailers/lead_notification_mailer'
       require 'app/lead_notifications/lib/controller_hooks'
     end
